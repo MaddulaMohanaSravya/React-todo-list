@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.field {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.field input.error {
+  border-color: red;
+}
+
+.field small {
+  color: red;
+  font-size: 12px;
+}
+
+.field span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.phone {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #7f5af0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
